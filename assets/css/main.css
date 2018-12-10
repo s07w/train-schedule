@@ -1,0 +1,9 @@
+body {
+    font-size: 150%;
+}
+
+#headerTime {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 20px;
+}
