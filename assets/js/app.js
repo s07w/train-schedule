@@ -46,7 +46,7 @@
       var frequency = childSnapshot.val().frequency;
 
       //first Train pushed back to make sure it comes before current time
-      var firstTimeConv = moment(firstTrain, "HH:mm");
+      var firstTimeConv = moment(firstTrain, "HH:mm").subtract(1, "years");
 
       var currentTime = moment().format("HH:mm");
         console.log("Current time: " + currentTime);
